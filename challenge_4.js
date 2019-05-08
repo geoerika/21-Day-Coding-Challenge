@@ -41,7 +41,7 @@ const countModules = () => {
 
 const countEssential = () => {
   let count = 0;
-  for (obj of availableModules) {
+  for (let obj of availableModules) {
     if (obj.essential) count++;
   }
   return count;
